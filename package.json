@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Examen DevOps Janvier2025",
   "main": "index.js",
-"scripts": {
-  "prettier": "prettier --check .",
-  "lint": "eslint .",
-  "test": "jest",
-  "build": "echo 'Building the project...' && exit 0"
-},
+  "scripts": {
+    "prettier": "prettier --check .",
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "echo 'Building the project...' && exit 0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
