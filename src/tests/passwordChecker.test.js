@@ -19,3 +19,7 @@ test('missing digit', () => {
 test('contains IPL', () => {
   expect(validatePassword('IPL@1234')).toBe(false);
 });
+
+test('contains IPL in different cases', () => {
+    expect(validatePassword('iPl@1234')).toBe(false);
+});
