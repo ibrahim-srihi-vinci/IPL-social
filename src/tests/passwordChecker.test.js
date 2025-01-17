@@ -11,3 +11,7 @@ test('password too short', () => {
 test('missing special character', () => {
     expect(validatePassword('Valid1234')).toBe(false);
 });
+
+test('missing digit', () => {
+    expect(validatePassword('Valid@word')).toBe(false);
+});
