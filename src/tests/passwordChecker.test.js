@@ -15,3 +15,7 @@ test('missing special character', () => {
 test('missing digit', () => {
     expect(validatePassword('Valid@word')).toBe(false);
 });
+
+test('contains IPL', () => {
+    expect(validatePassword('IPL@1234')).toBe(false);
+});
