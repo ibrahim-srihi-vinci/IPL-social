@@ -7,3 +7,7 @@ test('valid password', () => {
 test('password too short', () => {
     expect(validatePassword('Val@1')).toBe(false);
 });
+
+test('missing special character', () => {
+    expect(validatePassword('Valid1234')).toBe(false);
+});
