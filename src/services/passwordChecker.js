@@ -1,5 +1,6 @@
 function validatePassword(password) {
-    return true; // Pour passer le premier test
+    const hasMinLength = password.length >= 8;
+    return hasMinLength;
 }
 
 module.exports = validatePassword;
