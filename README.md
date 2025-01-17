@@ -30,4 +30,5 @@ Ce projet d'examen de DevOps consiste à créer un environnement DevOps avec une
    - Les tests pour la fonction de validation de mot de passe sont écrits dans un fichier séparé `passwordChecker.test.js` en utilisant le framework de test Jest.
 
 ## Commande pour exécuter les tests
+
 npm test

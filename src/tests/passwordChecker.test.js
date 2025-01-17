@@ -21,5 +21,5 @@ test('contains IPL', () => {
 });
 
 test('contains IPL in different cases', () => {
-    expect(validatePassword('iPl@1234')).toBe(false);
+  expect(validatePassword('iPl@1234')).toBe(false);
 });
